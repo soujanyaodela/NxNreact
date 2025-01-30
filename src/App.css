@@ -1,0 +1,19 @@
+.grid-table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.grid-cell {
+  border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.outer-cell {
+  background-color: green;
+}
+
+.middle-cell {
+  background-color: red;
+}
