@@ -23,7 +23,7 @@ class App extends Component {
 
   fetchData = async (gridSize) => {
     try {
-      const response = await axios.get(`http://localhost/NxN/backend.php?size=${gridSize}`);
+      const response = await axios.get(`http://localhost/NxNphp/backend.php?size=${gridSize}`);
       this.setState({ grid: response.data.grid });
     } catch (error) {
       console.error('Error fetching data', error);
